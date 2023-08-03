@@ -6,7 +6,7 @@ function Error() {
   return (
     <div>
       <Navbar />
-      Error, 
+      Error
       <Footer />
     </div>
   )
