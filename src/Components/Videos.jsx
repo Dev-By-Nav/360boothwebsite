@@ -1,9 +1,9 @@
 // src/Videos.js
 
 import React from 'react';
-import Video1 from 'src\assets\Videos\vid1.MP4';
-import Video2 from 'src\assets\Videos\vid2.MP4';
-import Video3 from 'src\assets\Videos\vid5.MP4';
+import Video1 from '../assets/videos/vid1.mp4';
+import Video2 from '../assets/videos/vid2.mp4';
+import Video3 from '../assets/videos/vid5.mp4';
 
 function Videos() {
   const videoList = [Video1, Video2, Video3, Video3, Video3, Video1, Video1, Video2];
