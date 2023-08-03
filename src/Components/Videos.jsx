@@ -3,7 +3,7 @@
 import React from 'react';
 import Video1 from '../assets/Videos/vid1.mp4';
 import Video2 from '../assets/Videos/vid2.mp4';
-import Video3 from '../assets/Videos/Vid5.mp4';
+import Video3 from '../assets/Videos/vid5.mp4';
 
 function Videos() {
   const videoList = [Video1, Video2, Video3, Video3, Video3, Video1, Video1, Video2];
