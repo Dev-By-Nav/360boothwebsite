@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../assets/Banner4.jpg'
+import banner from '../assets/Banner5.jpg'
 import { Link } from 'react-router-dom'
 
 function Hero() {
