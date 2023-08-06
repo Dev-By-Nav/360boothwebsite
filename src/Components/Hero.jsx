@@ -12,8 +12,8 @@ function Hero() {
 
         <div className='flex flex-col items-center py-8'>
           <div className='flex flex-col justify-center items-center text-white '>
-            <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold font-montserrat py-3 text-center">Capturing Moments from Every Angle:<br/> Your Unforgettable Journey with SmileBooth360</h1>
-            <h2 className="text-center w-3/4 font-semibold font-raleway sm:text-lg text-base">Step into a World of Immersive Memories: Transforming Special Moments with Our State-of-the-Art 360-Degree Video Booths</h2>
+            <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold font-montserrat py-3 text-center text-[#c94b60]">Capturing Your Moments from Every Angle:<br/>Book Now & Start Your Unforgettable Journey with SmileBooth360</h1>
+            <h2 className="text-center w-3/4 font-semibold font-raleway sm:text-lg text-base ">Step into a World of Immersive Memories: Transforming Special Moments with Our State-of-the-Art 360-Degree Video Booths</h2>
 
           </div>
         <div className=" flex space-x-4 mt-10 md:mt-16 ">
