@@ -11,9 +11,9 @@ function Footer() {
         <div className="footer-section mb-4 sm:mb-0 md:w-1/2">
           {/* Content for the first section */}
           <h1 className=" font-semibold pb-3 white">Smile Booth 360</h1>
-          <p>See Our Work</p>
-          <p>See Our Services & Pricing</p>
-          <p className='w-'>Serving Surrey, Delta, Burnaby, Richmond, and Vancouver</p>
+          <p>Phone:<br/> +44 7513324033 </p>
+          <p>Email:<br/>info@smilebooth360.com</p><br/>
+          <p className='w-'>Serving All Around The UK</p>
         </div>
         <div className="footer-section mb-4 sm:mb-0  w-1/2">
           {/* Content for the second section */}
