@@ -82,7 +82,7 @@ const Cards = () => {
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Unlimited Visits</p>
 
                 </div>
-                <button className='bg-[#c94b60] text-white w-[200px] rounded-md font-semibold font-montserrat my-6 mx-auto px-6 py-3'><Link to='/contact-us'>Book Bronze</Link></button>
+                <button className='bg-[#c94b60] text-white w-[200px] rounded-md font-semibold font-montserrat my-6 mx-auto px-6 py-3'><Link to='/contact-us'>Book 2 Hours</Link></button>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 ml-8 rounded-lg hover:shadow-2xl duration-300 hover:scale-105'>
                 <h2 className='text-2xl font-bold text-center py-8 text-[#c94b60] font-montserrat'>4 Hour Hire</h2>
@@ -108,7 +108,7 @@ const Cards = () => {
 
 
                 </div>
-                <button className='bg-[#c94b60] text-white w-[200px] rounded-md font-semibold font-montserrat my-6 mx-auto px-6 py-3'><Link to='/contact-us'>Book Silver</Link></button>
+                <button className='bg-[#c94b60] text-white w-[200px] rounded-md font-semibold font-montserrat my-6 mx-auto px-6 py-3'><Link to='/contact-us'>Book 4 Hours</Link></button>
             </div>
         </div>
     </div>

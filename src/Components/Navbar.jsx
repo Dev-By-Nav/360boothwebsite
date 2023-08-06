@@ -21,16 +21,16 @@ const Navbar = () => {
           <img src={logo} alt='' className='h-24 w-auto' />
         </Link>
         <ul className={`hidden md:flex font-semibold cursor-pointer text-[#c94b60] text-lg ${nav ? 'hidden' : ''}`}>
-          <li className='p-4 hover:text-white font-medium'>
+          <li className='p-4 hover:text-[#ad345c] font-medium'>
             <Link to='/'>Home</Link>
           </li>
-          <li className='p-4 hover:text-white font-medium'>
+          <li className='p-4 hover:text-[#ad345c] font-medium'>
             <Link to='/gallery'>Gallery</Link>
           </li>
-          <li className='p-4 hover:text-white font-medium'>
+          <li className='p-4 hover:text-[#ad345c] font-medium'>
             <Link to='/services'>Services</Link>
           </li>
-          <li className='p-4 hover:text-white font-medium flex-row'>
+          <li className='p-4 hover:text-[#ad345c] font-medium flex-row'>
             <Link to='/contact-us'>Contact Us</Link>
           </li>
         </ul>

@@ -7,7 +7,6 @@ function Gallery() {
   return (
     <div>
       <Navbar /> 
-      Gallery
       <Videos />
       <Footer />
     </div>
