@@ -4,7 +4,7 @@ import image from '../assets/abt-img.jpg'
 function About() {
   return (
     <div className="flex flex-col items-center justify-center bg-gray-100 p-8">
-  <h1 className="text-2xl font-bold mb-4 mt-0 text-[#c94b60] font-montserrat">Smile Booth 360</h1>
+  <h1 className="text-2xl font-bold mb-4 mt-0 text-[#c94b60] font-montserrat">SmileBooth360</h1>
   <div className="flex flex-col md:flex-row items-center justify-center">
     <div className="md:pr-4">
       <img
