@@ -13,12 +13,12 @@ const Navbar = () => {
   return (
     <nav>
       <div
-        className={`flex justify-between items-center h-24 min-w-full mx-auto px-12 text-white bg-white ${
+        className={`flex justify-between items-center h-28 min-w-full mx-auto px-12 text-white bg-white ${
           nav ? 'sticky top-0' : ''
         } z-50`}
       >
         <Link to='/'>
-          <img src={logo} alt='' className='h-24 w-auto' />
+          <img src={logo} alt='' className='h-28 w-auto' />
         </Link>
         <ul className={`hidden md:flex font-semibold cursor-pointer text-[#c94b60] text-lg ${nav ? 'hidden' : ''}`}>
           <li className='p-4 hover:text-[#ad345c] font-medium'>
