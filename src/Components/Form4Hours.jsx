@@ -85,7 +85,7 @@ function Form() {
               className="w-full p-2 border border-gray-300 rounded"
               required
             />
-            <a href='https://www.instagram.com/smilebooth360uk/' target="_blank" rel="noopener noreferrer">
+            <a href='https://outlook.office365.com/calendar/published/69ed4b427f8044158b0d66b7d0b0734c@smilebooth360.com/afc8f4b7a348459aa6c209820b7509a14482848494026871874/calendar.html' target="_blank" rel="noopener noreferrer">
               <span className="hover:bg-[#ad345c] bg-[#c94b60] text-white font-semibold font-montserrat py-2 px-4 rounded whitespace-nowrap">
                 Check Availability
               </span>
