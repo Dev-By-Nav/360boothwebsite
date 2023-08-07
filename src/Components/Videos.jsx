@@ -1,6 +1,6 @@
 // src/Videos.js
 import React from 'react';
-import Video1 from '../Videos/Vid1.MP4';
+import Video1 from '../Videos/vid1.MP4';
 
 function Videos() {
   const videoList = [Video1];
