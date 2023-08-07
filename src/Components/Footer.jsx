@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -10,8 +10,8 @@ function Footer() {
       <div className="flex flex-col sm:flex-row pl-10 md:pl-20 pt-4">
         <div className="footer-section mb-4 sm:mb-0 md:w-1/3">
           {/* Content for the first section */}
-          <h1 className=" font-semibold pb-3 white">Smile Booth 360</h1>
-          <p>Phone: +44 7513324033 </p>
+          <h1 className=" font-semibold pb-3 white">Smilebooth360</h1>
+          <p>Phone: +447513324033 </p>
           <p>Email: info@smilebooth360.com</p><br/>
           <p className='w-'>We Service Across The UK.</p>
         </div>
@@ -34,8 +34,13 @@ function Footer() {
           </span>
         </a>
         <a href='https://www.tiktok.com/@smilebooth360uk' target="_blank" rel="noopener noreferrer">
-          <span className="inline-block align-middle text-3xl pl-2">
+          <span className="inline-block align-middle text-3xl pl-2 pr-2">
             <FaTiktok />
+          </span>
+        </a>
+        <a href='https://api.whatsapp.com/send?phone=447513324033' target="_blank" rel="noopener noreferrer">
+          <span className="inline-block align-middle text-4xl pl-2">
+            <FaWhatsapp />
           </span>
         </a>
         </div>

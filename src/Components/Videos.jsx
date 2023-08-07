@@ -17,7 +17,7 @@ function Videos() {
   const videoList = [Video1, Video2, Video3, Video6, Video7, Video9, Video10, Video11, Video12, Video14, Video16, Video17];
 
   return (
-    <div className="max-w-[90vw] mx-auto columns-1  xs:columns-2 md:columns-3 lg:columns-4 xl:columns-5 space-y-4 my-6">
+    <div className="max-w-[90vw] mx-auto columns-1  xs:columns-2 md:columns-3 lg:columns-4 space-y-4 my-6">
       {videoList.map((video, index) => (
         <div key={index}>
           <video className="w-full" controls muted>

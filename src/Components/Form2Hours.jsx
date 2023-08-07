@@ -119,7 +119,7 @@ function Form() {
           {/* Extra Information */}
           <div className="mb-4">
             <label htmlFor="extraTextBox" className="block mb-2">
-              Extra Information
+              Extra Information or Add-ons
             </label>
             <textarea
               id="extraTextBox"

@@ -8,7 +8,7 @@ function ClientInfo() {
       <div className="w-3/4 md:2/3 "> {/* Set the accordion to 50% width */}
         <AccordionList className="">
           <Accordion>
-            <AccordionHeader>What is Smile Booth 360 ?</AccordionHeader>
+            <AccordionHeader>What is Smilebooth360 ?</AccordionHeader>
             <AccordionBody>
             The Smile bit is ours 😉 but the 360 booth records high-quality video of your guests for several seconds while the camera revolves around them at a high framerate. The captured footage is then processed into a video that allows you to control the speed, selectively speeding up and slowing down certain parts. Additionally, the app offers the option to superimpose a static overlay of your choice, such as a logo, monogram, or any desired image.
             </AccordionBody>
@@ -20,9 +20,9 @@ function ClientInfo() {
             </AccordionBody>
           </Accordion>
           <Accordion>
-            <AccordionHeader>Do you travel to venues outside of London ?</AccordionHeader>
+            <AccordionHeader>Where do you travel ?</AccordionHeader>
             <AccordionBody>
-            Yes we service across the UK.<br/>*Please Note* Additional charges may apply if you are over a 50 mile radius from our base location in Cambridgeshire.
+            We service across the UK.<br/>*Please Note* Additional charges may apply if you are over a 50 mile radius from our base location in Cambridgeshire.
             </AccordionBody>
           </Accordion>
           <Accordion>
@@ -32,9 +32,9 @@ function ClientInfo() {
             </AccordionBody>
           </Accordion>
           <Accordion>
-            <AccordionHeader>Can I hire the booth for less than two hours ?</AccordionHeader>
+            <AccordionHeader>Can I hire the booth for less than four hours ?</AccordionHeader>
             <AccordionBody>
-            Unfortunately, not. We do require a minimum hire of two hours to host your event. 
+            Unfortunately not. We do require a minimum hire of two hours to host your event. 
             </AccordionBody>
           </Accordion>
           <Accordion>
@@ -44,7 +44,7 @@ function ClientInfo() {
             </AccordionBody>
           </Accordion>
           <Accordion>
-            <AccordionHeader>Can I use the photobooth360 outdoors ?</AccordionHeader>
+            <AccordionHeader>Can I have the Smilebooth360 outdoors ?</AccordionHeader>
             <AccordionBody>
             Yes. But you will need to provide full cover for the photobooth and ensure protection from any weather interference. We would also need a flat surface for the booth to stand on.
             </AccordionBody>
@@ -53,6 +53,12 @@ function ClientInfo() {
             <AccordionHeader>Do you have public liability insurance ?</AccordionHeader>
             <AccordionBody>
             Yes. We have cover for £5M. A copy of the policy is available on request.
+            </AccordionBody>
+          </Accordion>
+          <Accordion>
+            <AccordionHeader>Do you require a deposit to confirm the booking ?</AccordionHeader>
+            <AccordionBody>
+            Yes. We require a 50% deposit to confirm the booking.
             </AccordionBody>
           </Accordion>
         </AccordionList>

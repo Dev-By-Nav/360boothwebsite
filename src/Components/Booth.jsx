@@ -1,5 +1,5 @@
 import React from 'react'
-import Booth from '../assets/Booth.jpeg'
+import Booth from '../assets/Booth1.jpeg'
 
 function BoothSize() {
   return (
