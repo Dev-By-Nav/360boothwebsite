@@ -32,12 +32,11 @@ function Review() {
         </SwiperSlide>
         <SwiperSlide className=" text-center text-xl bg-[#c94b60] flex justify-center items-center flex-col">
           <h1 className="text-2xl text-white font-montserrat">House Party</h1>
-          <p className="text-base w-3/4 text-white font-raleway">Melody Hossaini, former BBC The Apprentice star says “SmileBooth's 360 Video Booth is an absolute game-changer! AsI'm no stranger to innovation, and this booth exceeded all expectations. The cutting-edge technology flawlessly captured immersive content from every angle, adding a unique and exciting touch to my videos. The user-friendly interface and dedicated team made the entire experience a breeze. SmileBooth's 360 Video Booth is a must-try for anyone aiming to captivate their audience in a fresh and unforgettable way. Warmly,
-Melody Hossaini
-</p>
+          <p className="text-base w-3/4 text-white font-raleway">"Thanks so much Smilebooth360UK! You guys were a dream to work with! Absolutely loved the booth and thank you for taking our party to another level. Will definitely use you again in the future - Melody
+”</p>
         </SwiperSlide>
         <SwiperSlide className="text-center text-xl bg-[#c94b60] flex justify-center items-center flex-col">
-          <h1 className="text-2xl w-1/3 text-white font-montserrat">Fundraising Event</h1>
+          <h1 className="text-2xl w-1/3 text-white font-montserrat whitespace-nowrap">Fundraising Event</h1>
           <p className="text-base w-3/4 text-white font-raleway ">“The best addition to our fundraising gala. We would really recommend these guys, me and my team absolutely loved the classy/elegant lay out of the smilebooth360 and we really felt like VIPS walking down that red carpet and amazing gold posts! Perfect for any corporate event and worth every penny. Thanks again” </p>
         </SwiperSlide>
         

@@ -21,7 +21,7 @@ function Hero() {
             <Link to='/gallery'>See Our Work</Link>
           </button>
           <button className="bg-[#c94b60] text-white hover:bg-[#ad345c] py-2 px-5 md:py-4 md:px-9 md:text-lg font-semibold font-montserrat rounded">
-            <Link to='/contact-us'>Get In Touch</Link>
+            <Link to='/services'>Book Now</Link>
           </button>
         </div>
         </div>

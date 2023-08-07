@@ -1,24 +1,23 @@
-import React from 'react';
-import Navbar from './Navbar'
+import React, { useEffect } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 function Form() {
   const [state, handleSubmit] = useForm('mrgwzjwl');
-  if (state.succeeded) {
-    return (
-      <p className='text-xl font-medium font-quicksand flex justify-center text-center my-24 text-[#c94b60]'>
-        Thanks for Contacting.<br /> We will get back to you as soon.
-      </p>
-    );
-  }
+
+  useEffect(() => {
+    if (state.succeeded) {
+      window.location.href = 'https://buy.stripe.com/test_fZe29c7P31JZclqaEG';
+    }
+  }, [state.succeeded]);
 
   return (
     <div className='my-16'>
-      <h1 className="flex text-2xl font-semibold items-center justify-center font-montserrat mx-4 text-[#c94b60]">Get In Touch For Bookings/ Enquiries</h1>
-      <h2 className="flex text-lg font-base items-center justify-center mb-8 mt-1 font-raleway mx-4 text-[#c94b60]">Send us a message to book or for more info.</h2>
+      <h1 className="flex text-2xl font-semibold items-center justify-center font-montserrat mx-4 text-[#c94b60]">Book 4 Hours of The 360 Booth</h1>
+      <h2 className="flex text-lg font-base items-center justify-center mb-8 mt-1 font-raleway mx-4 text-[#c94b60]">*Please Note* There is a charge on bookings further than 50 miles of PE11</h2>
       <div className="flex justify-center mx-4">
         <form onSubmit={handleSubmit} className="w-full max-w-md font-montserrat">
-          <div className="mb-4 ">
+          {/* Name */}
+          <div className="mb-4">
             <label htmlFor="name" className="block mb-2">
               Name
             </label>
@@ -27,7 +26,7 @@ function Form() {
               type="text"
               name="name"
               className="w-full p-2 border border-gray-300 rounded"
-              required // Add the 'required' attribute
+              required
             />
             <ValidationError
               prefix="Name"
@@ -36,6 +35,7 @@ function Form() {
               className="text-red-500"
             />
           </div>
+          {/* Phone Number */}
           <div className="mb-4">
             <label htmlFor="phone" className="block mb-2">
               Phone Number
@@ -45,7 +45,7 @@ function Form() {
               type="text"
               name="phone"
               className="w-full p-2 border border-gray-300 rounded"
-              required // Add the 'required' attribute
+              required
             />
             <ValidationError
               prefix="Phone Number"
@@ -54,6 +54,7 @@ function Form() {
               className="text-red-500"
             />
           </div>
+          {/* Location */}
           <div className="mb-4">
             <label htmlFor="location" className="block mb-2">
               Location
@@ -63,7 +64,7 @@ function Form() {
               type="text"
               name="location"
               className="w-full p-2 border border-gray-300 rounded"
-              required // Add the 'required' attribute
+              required
             />
             <ValidationError
               prefix="Location"
@@ -72,8 +73,9 @@ function Form() {
               className="text-red-500"
             />
           </div>
-          <div className="mb-4">
-            <label htmlFor="datetime" className="block mb-2">
+          {/* Date & Time */}
+          <div className="mb-4 flex items-center">
+            <label htmlFor="datetime" className="block mb-2 whitespace-nowrap">
               Date & Time
             </label>
             <input
@@ -81,8 +83,13 @@ function Form() {
               type="text"
               name="datetime"
               className="w-full p-2 border border-gray-300 rounded"
-              required // Add the 'required' attribute
+              required
             />
+            <a href='https://www.instagram.com/smilebooth360uk/' target="_blank" rel="noopener noreferrer">
+              <span className="hover:bg-[#ad345c] bg-[#c94b60] text-white font-semibold font-montserrat py-2 px-4 rounded whitespace-nowrap">
+                Check Availability
+              </span>
+            </a>
             <ValidationError
               prefix="Date & Time"
               field="datetime"
@@ -90,6 +97,7 @@ function Form() {
               className="text-red-500"
             />
           </div>
+          {/* Event Type */}
           <div className="mb-4">
             <label htmlFor="eventType" className="block mb-2">
               Event Type
@@ -99,7 +107,7 @@ function Form() {
               type="text"
               name="eventType"
               className="w-full p-2 border border-gray-300 rounded"
-              required // Add the 'required' attribute
+              required
             />
             <ValidationError
               prefix="Event Type"
@@ -108,30 +116,7 @@ function Form() {
               className="text-red-500"
             />
           </div>
-
-          {/* Dropdown menu with 4 options */}
-          <div className="mb-4">
-            <label htmlFor="extraInfo" className="block mb-2">
-              Duration:
-            </label>
-            <select
-              id="extraInfo"
-              name="extraInfo"
-              className="w-full p-2 border border-gray-300 rounded" // Add the 'required' attribute if needed
-            >
-              <option value="">Select an option</option>
-              <option value="2 Hours">2 Hours</option>
-              <option value="4 Hours">4 Hours</option>
-            </select>
-            <ValidationError
-              prefix="Option"
-              field="extraInfo"
-              errors={state.errors}
-              className="text-red-500"
-            />
-          </div>
-
-          {/* Text box for extra information */}
+          {/* Extra Information */}
           <div className="mb-4">
             <label htmlFor="extraTextBox" className="block mb-2">
               Extra Information
@@ -141,7 +126,6 @@ function Form() {
               name="extraTextBox"
               className="w-full p-2 border border-gray-300 rounded"
               rows="2"
-               // Add the 'required' attribute if needed
             />
             <ValidationError
               prefix="Extra Information"
@@ -150,14 +134,19 @@ function Form() {
               className="text-red-500"
             />
           </div>
-
-          <button
-            type="submit"
-            disabled={state.submitting}
-            className="hover:bg-[#ad345c] bg-[#c94b60] text-white font-semibold font-montserrat py-2 px-4 rounded"
-          >
-            Submit
-          </button>
+          {/* Submit Button */}
+          <div className="mb-4">
+            <a href='https://buy.stripe.com/test_fZe29c7P31JZclqaEG' target="_blank" rel="noopener noreferrer">
+              <span className="hover:bg-[#ad345c] bg-[#c94b60] text-white font-semibold font-montserrat py-2 px-4 rounded">
+                <button
+                  type="submit"
+                  disabled={state.submitting}
+                >
+                  Continue To Pay Deposit for 4 Hours
+                </button>
+              </span>
+            </a>
+          </div>
         </form>
       </div>
     </div>
@@ -165,3 +154,8 @@ function Form() {
 }
 
 export default Form;
+
+
+
+
+

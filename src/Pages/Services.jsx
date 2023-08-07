@@ -9,7 +9,7 @@ function Services() {
     <div>
       <Navbar />
       <Cards />
-      <h1 className='flex justify-center text-3xl font-semibold'>Frequently Asked Questions</h1>
+      <h1 className='flex justify-center text-3xl font-semibold font-montserrat'>Frequently Asked Questions</h1>
       <ClientInfo />
       <Footer />
     </div>
