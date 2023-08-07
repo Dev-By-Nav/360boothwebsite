@@ -15,8 +15,10 @@ function Celebrity() {
     </div>
     <div className="w-3/4 md:w-1/2 md:pl-4 mt-4 md:mt-0 text-center md:text-left">
       <p className='font-raleway'>
-      Melody Hossaini, former BBC The Apprentice star says “SmileBooth's 360 Video Booth is an absolute game-changer! As I am no stranger to innovation, and this booth exceeded all expectations. The cutting-edge technology flawlessly captured immersive content from every angle, adding a unique and exciting touch to my videos. The user-friendly interface and dedicated team made the entire experience a breeze. SmileBooth's 360 Video Booth is a must-try for anyone aiming to captivate their audience in a fresh and unforgettable way. Warmly,
-Melody Hossaini.
+      Melody Hossaini, former BBC Apprentice star says “SmileBooth's 360 Video Booth is an absolute game-changer! As I am no stranger to innovation, and this booth exceeded all expectations. The cutting-edge technology flawlessly captured immersive content from every angle, adding a unique and exciting touch to my videos. The user-friendly interface and dedicated team made the entire experience a breeze. SmileBooth's 360 Video Booth is a must-try for anyone aiming to captivate their audience in a fresh and unforgettable way.
+
+Warmly,
+Melody Hossaini
       </p>
     </div>
   </div>
