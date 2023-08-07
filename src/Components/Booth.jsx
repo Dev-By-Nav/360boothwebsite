@@ -8,7 +8,7 @@ function BoothSize() {
   <div className="flex flex-col md:flex-row items-center justify-center">
     <div className="md:pr-4">
       <img
-        className="rounded-lg shadow-md h-60 w-auto"
+        className="rounded-lg shadow-md h-96 w-auto"
         src={Booth}
         alt="Your Image"
       />

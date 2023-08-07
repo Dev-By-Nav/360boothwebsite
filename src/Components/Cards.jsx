@@ -101,7 +101,7 @@ const Cards = () => {
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Party Lights</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Money Gun</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Ring Light</p>
-                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Red Rope for Gold Queue Posts</p>
+                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Red Velvet Rope for Gold Statchions</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Apple Ipad</p>
 
 
