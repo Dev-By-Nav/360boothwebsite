@@ -32,13 +32,13 @@ function ClientInfo() {
             </AccordionBody>
           </Accordion>
           <Accordion>
-            <AccordionHeader>Can I hire the booth for less than four hours ?</AccordionHeader>
+            <AccordionHeader>Can I hire the booth for less than two hours ?</AccordionHeader>
             <AccordionBody>
             Unfortunately not. We do require a minimum hire of two hours to host your event. 
             </AccordionBody>
           </Accordion>
           <Accordion>
-            <AccordionHeader>What if I need the booth for more than two hours?</AccordionHeader>
+            <AccordionHeader>What if I need the booth for more than four hours?</AccordionHeader>
             <AccordionBody>
             Not a problem, we charge an hourly rate of £50 for any additional hours. 
             </AccordionBody>

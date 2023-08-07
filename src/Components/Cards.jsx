@@ -77,8 +77,9 @@ const Cards = () => {
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Online Gallery Access</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>1-5 Person Platform</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>High Quality Props</p>
-                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Apple Ipad Pro</p>
+                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Apple Ipad</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Sent To You Instantly</p>
+                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Ring Light</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Unlimited Visits</p>
 
                 </div>
@@ -96,13 +97,12 @@ const Cards = () => {
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Online Gallery Access</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>1-5 Person Platform</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>High Quality Props</p>
-                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Brand New HD Camera</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Sent To You Instantly</p>
-                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Custom Video Branding</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Party Lights</p>
                     <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Money Gun</p>
-                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Gold Queue Posts</p>
-                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Apple Ipad Pro</p>
+                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Ring Light</p>
+                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Red Rope for Gold Queue Posts</p>
+                    <p className='py-2 border-b mx-8 mt-2 font-medium font-raleway'>Apple Ipad</p>
 
 
                 </div>
