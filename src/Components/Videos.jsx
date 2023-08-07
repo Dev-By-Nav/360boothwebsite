@@ -6,7 +6,7 @@ import Video3 from '../Videos/vid3.MP4';
 import Video6 from '../Videos/vid6.MP4';
 import Video7 from '../Videos/vid7.MP4';
 import Video9 from '../Videos/vid9.MP4';
-import Video10 from '../Videos/vid10.MP4';
+import Video10 from '../Videos/vid10.MP4';      
 import Video11 from '../Videos/vid11.MP4';
 import Video12 from '../Videos/vid12.MP4';
 import Video14 from '../Videos/vid14.MP4';
@@ -30,4 +30,5 @@ function Videos() {
 }
 
 export default Videos;
- 
+
+// Make sure all video files have'.MP4' not '.mp4'
