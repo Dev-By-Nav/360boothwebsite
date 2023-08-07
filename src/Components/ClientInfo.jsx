@@ -61,6 +61,12 @@ function ClientInfo() {
             Yes. We require a 50% deposit to confirm the booking.
             </AccordionBody>
           </Accordion>
+          <Accordion>
+            <AccordionHeader>Do you have any customisations ?</AccordionHeader>
+            <AccordionBody>
+            Yes we can create a customised avatar of you to place on top of your videos for an additional £100. <br/>Please note, we need 2 clear photos & 4 weeks notice to create the avatar.
+            </AccordionBody>
+          </Accordion>
         </AccordionList>
       </div>
     </div>
