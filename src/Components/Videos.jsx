@@ -10,7 +10,7 @@ function Videos() {
       {videoList.map((video, index) => (
         <div key={index}>
           <video className="w-full" controls muted>
-            <source src={video} type="video/mp4" />
+            <source src={video} type="video/MP4" />
           </video>
         </div>
       ))}
