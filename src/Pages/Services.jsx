@@ -4,10 +4,16 @@ import Footer from '../Components/Footer'
 import Cards from '../Components/Cards'
 import ClientInfo from '../Components/ClientInfo'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 function Services() {
   return (
     <div>
+      <Helmet>
+        <title>Smilebooth360 - Services</title>
+        <meta name="description" content="Welcome to our home page, find out more about us and see our past work" />
+      </Helmet>
+
       <Navbar />
       <Cards />
       <div className='flex justify-center flex-col items-center '>
