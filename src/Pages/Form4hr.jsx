@@ -9,7 +9,7 @@ function Form4hr() {
     <div>
       <Helmet>
         <title>Smilebooth360 - Book 4 hours</title>
-        <meta name="description" content="Welcome to our home page, find out more about us and see our past work" />
+        <meta name="description" content="Book Smilebooth360 for 4 hours" />
       </Helmet>
         <Navbar />
         <Form4Hours />

@@ -10,7 +10,7 @@ function TheBooth() {
     <div>
       <Helmet>
         <title>Smilebooth360 - The booth</title>
-        <meta name="description" content="Welcome to our home page, find out more about us and see our past work" />
+        <meta name="description" content="Find out more info about the booth itself." />
       </Helmet>
         <Navbar />
         <BoothSize />

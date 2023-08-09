@@ -10,7 +10,7 @@ function Contact() {
     <div>
       <Helmet>
         <title>Smilebooth360 - Contact us</title>
-        <meta name="description" content="Welcome to our home page, find out more about us and see our past work" />
+        <meta name="description" content="Get in touch with one of the team" />
       </Helmet>
         <Navbar />
         <Form />
