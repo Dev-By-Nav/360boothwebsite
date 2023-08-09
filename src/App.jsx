@@ -23,7 +23,7 @@ function App() {
         <Route exact path='/2hours-booking' element={<Form2hr />}></Route>
         <Route exact path='/4hours-booking' element={<Form4hr />}></Route>
         <Route exact path='/the-booth' element={<TheBooth />}></Route>
-        <Route exact path='/deposit-confirmed' element={<Paymentconfirm />}></Route>
+        <Route exact path='/payment-confirmation' element={<Paymentconfirm />}></Route>
 
 
         <Route path='/*' element={<Error />}></Route>
