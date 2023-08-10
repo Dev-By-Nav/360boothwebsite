@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import { useForm, ValidationError } from '@formspree/react';
 
 function Form() {
-  const [state, handleSubmit] = useForm('mrgwzjwl');
+  const [state, handleSubmit] = useForm('xzbleelk');
   if (state.succeeded) {
     return (
       <p className='text-xl font-medium font-quicksand flex justify-center text-center my-24 text-[#c94b60]'>

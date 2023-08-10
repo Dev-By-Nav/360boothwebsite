@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 function Form() {
-  const [state, handleSubmit] = useForm('mrgwzjwl');
+  const [state, handleSubmit] = useForm('xleyjjyw');
 
   useEffect(() => {
     if (state.succeeded) {
-      window.location.href = 'https://book.stripe.com/test_9AQeVY0mB2O3gBGfYZ';
+      window.location.href = 'https://buy.stripe.com/14k8xO1yI9pj21WfYY';
     }
   }, [state.succeeded]);
 
@@ -136,7 +136,7 @@ function Form() {
           </div>
           {/* Submit Button */}
           <div className="mb-4">
-            <a href='https://book.stripe.com/test_9AQeVY0mB2O3gBGfYZ' target="_blank" rel="noopener noreferrer">
+            <a href='https://buy.stripe.com/14k8xO1yI9pj21WfYY' target="_blank" rel="noopener noreferrer">
               <span className="hover:bg-[#ad345c] bg-[#c94b60] text-white font-semibold font-montserrat py-2 px-4 rounded">
                 <button
                   type="submit"
