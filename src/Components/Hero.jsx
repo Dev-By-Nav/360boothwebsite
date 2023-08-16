@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../assets/Banner8.jpg';
+import banner from '../assets/Banner9.jpg';
 import { Link } from 'react-router-dom';
 
 function Hero() {
@@ -12,7 +12,7 @@ function Hero() {
         <a
           href="https://www.poptop.uk.com/supplier/smilebooth360uk/"
           target="_blank"
-          className="absolute top-4 right-4 md:top-8 md:right-8 z-10 "
+          className="absolute top-3 right-4 md:top-4 md:right-8 z-10 "
         >
           <img
             src="https://www.poptop.uk.com/ranking/smilebooth360uk/GoldPoptopFeaturedSupplierRating.png"
