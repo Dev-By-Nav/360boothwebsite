@@ -67,7 +67,7 @@ const Cards = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-10 mt-8'>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 mr-8 rounded-lg hover:shadow-2xl hover:scale-105 duration-300'>
                 <h2 className='text-2xl font-bold text-center py-8 text-[#c94b60] font-montserrat'>2 Hour Hire</h2>
-                <p className='text-center text-4xl font-bold font-montserrat'>£269</p>
+                <p className='text-center text-4xl font-bold font-montserrat'>£369</p>
                 <div className='text-center'>
                     
                     <p className='py-2 border-b mx-8 mt-6 font-medium font-raleway'>360° Photo Booth</p>
@@ -86,8 +86,8 @@ const Cards = () => {
                 <button className='bg-[#c94b60] text-white w-[200px] rounded-md font-semibold font-montserrat my-6 mx-auto px-6 py-3'><Link to='/2hours-booking'>Book 2 Hours</Link></button>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 ml-8 rounded-lg hover:shadow-2xl duration-300 hover:scale-105'>
-                <h2 className='text-2xl font-bold text-center py-8 text-[#c94b60] font-montserrat'>4 Hour Hire</h2>
-                <p className='text-center text-4xl font-bold font-montserrat'>£369</p>
+                <h2 className='text-2xl font-bold text-center py-8 text-[#c94b60] font-montserrat'>3 Hour Hire</h2>
+                <p className='text-center text-4xl font-bold font-montserrat'>£469</p>
                 <div className='text-center'>
                     
                     <p className='py-2 border-b mx-8 mt-6 font-medium font-raleway'>360° Photo Booth</p>
