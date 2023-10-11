@@ -12,7 +12,7 @@ function Form() {
 
   return (
     <div className='my-16'>
-      <h1 className="flex text-2xl font-semibold items-center justify-center font-montserrat mx-4 text-[#c94b60]">Book 4 Hours of The 360 Booth</h1>
+      <h1 className="flex text-2xl font-semibold items-center justify-center font-montserrat mx-4 text-[#c94b60]">Book 3 Hours of The 360 Booth</h1>
       <h2 className="flex text-lg font-base items-center justify-center mb-8 mt-1 font-raleway mx-4 text-[#c94b60]">*Please Note* There is a charge on bookings further than 50 miles of PE11</h2>
       <div className="flex justify-center mx-4">
         <form onSubmit={handleSubmit} className="w-full max-w-md font-montserrat">
@@ -142,7 +142,7 @@ function Form() {
                   type="submit"
                   disabled={state.submitting}
                 >
-                  Continue To Pay Deposit for 4 Hours
+                  Continue To Pay Deposit for 3 Hours
                 </button>
               </span>
             </a>
