@@ -10,7 +10,7 @@ const Cards = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-10 mt-8'>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 mr-8 rounded-lg hover:shadow-2xl hover:scale-105 duration-300'>
                 <h2 className='text-2xl font-bold text-center py-8 text-[#c94b60] font-montserrat'>2 Hour Hire</h2>
-                <p className='text-center text-4xl font-bold font-montserrat'>£299</p>
+                <p className='text-center text-4xl font-bold font-montserrat'>£249</p>
                 <div className='text-center'>
                     
                     <p className='py-2 border-b mx-8 mt-6 font-medium font-raleway'>360° Photo Booth</p>
@@ -30,7 +30,7 @@ const Cards = () => {
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 ml-8 rounded-lg hover:shadow-2xl duration-300 hover:scale-105'>
                 <h2 className='text-2xl font-bold text-center py-8 text-[#c94b60] font-montserrat'>3 Hour Hire</h2>
-                <p className='text-center text-4xl font-bold font-montserrat'>£399</p>
+                <p className='text-center text-4xl font-bold font-montserrat'>£349</p>
                 <div className='text-center'>
                     
                     <p className='py-2 border-b mx-8 mt-6 font-medium font-raleway'>360° Photo Booth</p>
